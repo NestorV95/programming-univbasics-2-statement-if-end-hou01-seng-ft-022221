@@ -4,10 +4,9 @@
 #running time.now will give you the current time.
 
 current_time = Time.now
-current_time = %2
-current_time = to.i 
+current_time = current_time.to_i 
 
-if time.now.to_i TRUE
+if time.now.to_i % 2 == 0 TRUE
   puts "Even!"
 else
   puts "Odd!"
