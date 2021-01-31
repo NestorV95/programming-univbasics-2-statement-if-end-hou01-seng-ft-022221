@@ -6,7 +6,7 @@
 current_time = Time.now
 current_time = current_time.to_i 
 
-if time.now.to_i % 2 == 0 TRUE
+if current_time.to_i % 2 == 0 TRUE
   puts "Even!"
 else
   puts "Odd!"
