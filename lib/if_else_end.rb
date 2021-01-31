@@ -4,7 +4,7 @@
 #running time.now will give you the current time.
 
 current_time = Time.now
-current_time =
+current_time = 
 current_time = to.i 
 
 if TRUE
